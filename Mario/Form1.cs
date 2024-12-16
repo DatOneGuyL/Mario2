@@ -89,7 +89,11 @@ namespace Mario
         }
         private void MovegameElement (string direction)
         {
+            foreach (Control x in this.Controls)
+            {
 
+            } 
+                
         }
     }
 }
