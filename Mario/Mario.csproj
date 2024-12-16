@@ -52,6 +52,7 @@
     <Compile Include="begin.Designer.cs">
       <DependentUpon>begin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="Endgame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +73,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questions.cs" />
+    <Compile Include="QuestionsBus.cs" />
+    <Compile Include="Subject.cs" />
+    <Compile Include="SubjectBus.cs" />
     <EmbeddedResource Include="begin.resx">
       <DependentUpon>begin.cs</DependentUpon>
     </EmbeddedResource>
