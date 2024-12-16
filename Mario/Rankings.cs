@@ -10,26 +10,15 @@ using System.Windows.Forms;
 
 namespace Mario
 {
-    public partial class endwin : Form
+    public partial class Rank : Form
     {
-        public endwin()
+        public Rank()
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void Rankings_Paint(object sender, PaintEventArgs e)
         {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Rankings(object sender, EventArgs e)
-        {
-
+            e.Graphics.DrawImage(Properties.Resources.nen, 0, 0);
         }
     }
 }

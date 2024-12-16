@@ -34,13 +34,13 @@
             this.UserName = new System.Windows.Forms.Label();
             this.Ranking = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.start = new System.Windows.Forms.Button();
-            this.jumping = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cmb_Subject = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.jumping)).BeginInit();
+            this.start = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.jumping = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jumping)).BeginInit();
             this.SuspendLayout();
             // 
             // GameName
@@ -99,39 +99,6 @@
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // start
-            // 
-            this.start.BackColor = System.Drawing.Color.Transparent;
-            this.start.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.start.Image = global::Mario.Properties.Resources.startt;
-            this.start.Location = new System.Drawing.Point(288, 319);
-            this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(235, 94);
-            this.start.TabIndex = 7;
-            this.start.UseVisualStyleBackColor = false;
-            // 
-            // jumping
-            // 
-            this.jumping.BackColor = System.Drawing.Color.Transparent;
-            this.jumping.Image = ((System.Drawing.Image)(resources.GetObject("jumping.Image")));
-            this.jumping.Location = new System.Drawing.Point(26, 260);
-            this.jumping.Name = "jumping";
-            this.jumping.Size = new System.Drawing.Size(221, 248);
-            this.jumping.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.jumping.TabIndex = 6;
-            this.jumping.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Mario.Properties.Resources.chill_guy;
-            this.pictureBox1.Location = new System.Drawing.Point(572, 246);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(221, 248);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -152,6 +119,39 @@
             this.cmb_Subject.TabIndex = 9;
             this.cmb_Subject.Click += new System.EventHandler(this.comboBox1_Click);
             // 
+            // start
+            // 
+            this.start.BackColor = System.Drawing.Color.Transparent;
+            this.start.Font = new System.Drawing.Font("Comic Sans MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.start.Image = global::Mario.Properties.Resources.startt;
+            this.start.Location = new System.Drawing.Point(288, 319);
+            this.start.Name = "start";
+            this.start.Size = new System.Drawing.Size(235, 94);
+            this.start.TabIndex = 7;
+            this.start.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Mario.Properties.Resources.chill_guy;
+            this.pictureBox1.Location = new System.Drawing.Point(572, 246);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(221, 248);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // jumping
+            // 
+            this.jumping.BackColor = System.Drawing.Color.Transparent;
+            this.jumping.Image = ((System.Drawing.Image)(resources.GetObject("jumping.Image")));
+            this.jumping.Location = new System.Drawing.Point(26, 260);
+            this.jumping.Name = "jumping";
+            this.jumping.Size = new System.Drawing.Size(221, 248);
+            this.jumping.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.jumping.TabIndex = 6;
+            this.jumping.TabStop = false;
+            // 
             // begin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -169,10 +169,10 @@
             this.Controls.Add(this.nameBox);
             this.HelpButton = true;
             this.Name = "begin";
-            this.Text = "f";
+            this.Text = "Mario";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.begin_Paint);
-            ((System.ComponentModel.ISupportInitialize)(this.jumping)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.jumping)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

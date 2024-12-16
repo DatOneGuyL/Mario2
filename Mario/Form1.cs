@@ -55,6 +55,10 @@ namespace Mario
                 jumpspeed = -12;
                 force -= 1;
             }    
+            else
+            {
+                jumpspeed = 12;
+            }
             if (jump == true && force<0)
             {
                 jump = false;
