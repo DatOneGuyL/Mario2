@@ -42,5 +42,16 @@ namespace Mario
         {
 
         }
+
+        private void begin_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void start_Click(object sender, EventArgs e)
+        {
+            Mario.x = new Users(cmb_Name.Text, cmb_Subject.Text);
+            Form1 frm = new Form1();
+            frm.ShowDialog();
+
+        }
     }
-}

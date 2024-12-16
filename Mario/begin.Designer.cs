@@ -170,6 +170,7 @@
             this.HelpButton = true;
             this.Name = "begin";
             this.Text = "Mario";
+            this.Load += new System.EventHandler(this.begin_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.begin_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.jumping)).EndInit();
