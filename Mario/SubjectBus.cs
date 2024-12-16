@@ -18,8 +18,8 @@ namespace Mario
             foreach (DataRow dr in dt.Rows)
             {
                 SubjectBus item = new SubjectBus();
-                item.Id_SJ = Convert.ToInt32(dr["Subject ID"]);
-                item.Name_SJ = Convert.ToString(dr["Subject"]).Trim();
+                item.Id_SJ = Convert.ToInt32(dr["ID_SJ"]);
+                item.Name_SJ = Convert.ToString(dr["Name_SJ"]).Trim();
                 list.Add(item);
             }
             return list;

@@ -37,6 +37,8 @@
             this.start = new System.Windows.Forms.Button();
             this.jumping = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cmb_Subject = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.jumping)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -46,11 +48,11 @@
             this.GameName.AccessibleRole = System.Windows.Forms.AccessibleRole.TitleBar;
             this.GameName.AutoSize = true;
             this.GameName.BackColor = System.Drawing.Color.Transparent;
-            this.GameName.Font = new System.Drawing.Font("VNI-Truck", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GameName.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GameName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.GameName.Location = new System.Drawing.Point(296, 38);
             this.GameName.Name = "GameName";
-            this.GameName.Size = new System.Drawing.Size(207, 86);
+            this.GameName.Size = new System.Drawing.Size(184, 69);
             this.GameName.TabIndex = 0;
             this.GameName.Text = "Mario";
             // 
@@ -111,7 +113,7 @@
             // 
             this.jumping.BackColor = System.Drawing.Color.Transparent;
             this.jumping.Image = ((System.Drawing.Image)(resources.GetObject("jumping.Image")));
-            this.jumping.Location = new System.Drawing.Point(12, 199);
+            this.jumping.Location = new System.Drawing.Point(26, 260);
             this.jumping.Name = "jumping";
             this.jumping.Size = new System.Drawing.Size(221, 248);
             this.jumping.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -122,18 +124,39 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Mario.Properties.Resources.chill_guy;
-            this.pictureBox1.Location = new System.Drawing.Point(589, 199);
+            this.pictureBox1.Location = new System.Drawing.Point(572, 246);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(221, 248);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(222, 201);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 16);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Subject:";
+            // 
+            // cmb_Subject
+            // 
+            this.cmb_Subject.FormattingEnabled = true;
+            this.cmb_Subject.Location = new System.Drawing.Point(311, 201);
+            this.cmb_Subject.Name = "cmb_Subject";
+            this.cmb_Subject.Size = new System.Drawing.Size(167, 24);
+            this.cmb_Subject.TabIndex = 9;
+            this.cmb_Subject.Click += new System.EventHandler(this.comboBox1_Click);
+            // 
             // begin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 473);
+            this.Controls.Add(this.cmb_Subject);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.UserName);
             this.Controls.Add(this.GameName);
             this.Controls.Add(this.button1);
@@ -163,5 +186,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button start;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox cmb_Subject;
     }
 }
