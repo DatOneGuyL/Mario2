@@ -89,6 +89,7 @@
     </Compile>
     <Compile Include="Subject.cs" />
     <Compile Include="SubjectBus.cs" />
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="begin.resx">
       <DependentUpon>begin.cs</DependentUpon>
     </EmbeddedResource>
