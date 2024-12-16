@@ -178,6 +178,7 @@
             this.key3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.key3.TabIndex = 6;
             this.key3.TabStop = false;
+            this.key3.Tag = "badge";
             // 
             // key2
             // 
@@ -188,6 +189,7 @@
             this.key2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.key2.TabIndex = 6;
             this.key2.TabStop = false;
+            this.key2.Tag = "badge";
             // 
             // key1
             // 
@@ -198,6 +200,7 @@
             this.key1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.key1.TabIndex = 6;
             this.key1.TabStop = false;
+            this.key1.Tag = "badge";
             // 
             // pictureBox1
             // 
@@ -207,6 +210,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(837, 63);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Tag = "platform";
             // 
             // pictureBox21
             // 
@@ -217,6 +221,7 @@
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox21.TabIndex = 5;
             this.pictureBox21.TabStop = false;
+            this.pictureBox21.Tag = "coin";
             // 
             // pictureBox20
             // 
@@ -227,6 +232,7 @@
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox20.TabIndex = 5;
             this.pictureBox20.TabStop = false;
+            this.pictureBox20.Tag = "coin";
             // 
             // pictureBox19
             // 
@@ -237,6 +243,7 @@
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox19.TabIndex = 5;
             this.pictureBox19.TabStop = false;
+            this.pictureBox19.Tag = "coin";
             // 
             // pictureBox18
             // 
@@ -247,6 +254,7 @@
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox18.TabIndex = 5;
             this.pictureBox18.TabStop = false;
+            this.pictureBox18.Tag = "coin";
             // 
             // pictureBox17
             // 
@@ -257,6 +265,7 @@
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox17.TabIndex = 5;
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Tag = "coin";
             // 
             // pictureBox22
             // 
@@ -267,6 +276,7 @@
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox22.TabIndex = 5;
             this.pictureBox22.TabStop = false;
+            this.pictureBox22.Tag = "coin";
             // 
             // pictureBox16
             // 
@@ -277,6 +287,7 @@
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox16.TabIndex = 5;
             this.pictureBox16.TabStop = false;
+            this.pictureBox16.Tag = "coin";
             // 
             // pictureBox15
             // 
@@ -287,6 +298,7 @@
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox15.TabIndex = 5;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.Tag = "coin";
             // 
             // pictureBox14
             // 
@@ -297,6 +309,7 @@
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 5;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Tag = "coin";
             // 
             // pictureBox13
             // 
@@ -307,6 +320,7 @@
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox13.TabIndex = 5;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Tag = "coin";
             // 
             // pictureBox12
             // 
@@ -317,6 +331,7 @@
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox12.TabIndex = 5;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Tag = "coin";
             // 
             // pictureBox11
             // 
@@ -327,6 +342,7 @@
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 5;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Tag = "coin";
             // 
             // pictureBox29
             // 
@@ -337,6 +353,7 @@
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox29.TabIndex = 5;
             this.pictureBox29.TabStop = false;
+            this.pictureBox29.Tag = "coin";
             // 
             // pictureBox28
             // 
@@ -347,6 +364,7 @@
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox28.TabIndex = 5;
             this.pictureBox28.TabStop = false;
+            this.pictureBox28.Tag = "coin";
             // 
             // pictureBox27
             // 
@@ -357,6 +375,7 @@
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox27.TabIndex = 5;
             this.pictureBox27.TabStop = false;
+            this.pictureBox27.Tag = "coin";
             // 
             // pictureBox26
             // 
@@ -367,6 +386,7 @@
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox26.TabIndex = 5;
             this.pictureBox26.TabStop = false;
+            this.pictureBox26.Tag = "coin";
             // 
             // pictureBox25
             // 
@@ -377,6 +397,7 @@
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox25.TabIndex = 5;
             this.pictureBox25.TabStop = false;
+            this.pictureBox25.Tag = "coin";
             // 
             // pictureBox24
             // 
@@ -387,6 +408,7 @@
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox24.TabIndex = 5;
             this.pictureBox24.TabStop = false;
+            this.pictureBox24.Tag = "coin";
             // 
             // pictureBox8
             // 
@@ -397,6 +419,7 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 5;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Tag = "coin";
             // 
             // pictureBox6
             // 
@@ -406,6 +429,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(55, 254);
             this.pictureBox6.TabIndex = 3;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Tag = "platform";
             // 
             // door
             // 
@@ -417,6 +441,7 @@
             this.door.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.door.TabIndex = 4;
             this.door.TabStop = false;
+            this.door.Tag = "door";
             // 
             // pictureBox9
             // 
@@ -426,6 +451,7 @@
             this.pictureBox9.Size = new System.Drawing.Size(55, 254);
             this.pictureBox9.TabIndex = 3;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Tag = "platform";
             // 
             // pictureBox4
             // 
@@ -435,6 +461,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(233, 50);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Tag = "platform";
             this.pictureBox4.WaitOnLoad = true;
             // 
             // pictureBox10
@@ -445,6 +472,7 @@
             this.pictureBox10.Size = new System.Drawing.Size(171, 50);
             this.pictureBox10.TabIndex = 2;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Tag = "platform";
             this.pictureBox10.WaitOnLoad = true;
             // 
             // pictureBox5
@@ -455,6 +483,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(171, 50);
             this.pictureBox5.TabIndex = 2;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Tag = "platform";
             this.pictureBox5.WaitOnLoad = true;
             // 
             // pictureBox3
@@ -465,6 +494,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(195, 50);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Tag = "platform";
             this.pictureBox3.WaitOnLoad = true;
             // 
             // pictureBox2
@@ -475,6 +505,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(307, 50);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "platform";
             this.pictureBox2.WaitOnLoad = true;
             // 
             // pictureBox30
@@ -485,6 +516,7 @@
             this.pictureBox30.Size = new System.Drawing.Size(307, 63);
             this.pictureBox30.TabIndex = 1;
             this.pictureBox30.TabStop = false;
+            this.pictureBox30.Tag = "platform";
             // 
             // pictureBox31
             // 
@@ -494,6 +526,7 @@
             this.pictureBox31.Size = new System.Drawing.Size(194, 63);
             this.pictureBox31.TabIndex = 1;
             this.pictureBox31.TabStop = false;
+            this.pictureBox31.Tag = "platform";
             // 
             // background
             // 
@@ -504,6 +537,7 @@
             this.background.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.background.TabIndex = 0;
             this.background.TabStop = false;
+            this.background.Tag = "";
             // 
             // pictureBox23
             // 
@@ -514,13 +548,14 @@
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox23.TabIndex = 5;
             this.pictureBox23.TabStop = false;
+            this.pictureBox23.Tag = "coin";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(622, 502);
+            this.ClientSize = new System.Drawing.Size(632, 502);
             this.Controls.Add(this.pictureBox33);
             this.Controls.Add(this.pictureBox32);
             this.Controls.Add(this.pictureBox7);

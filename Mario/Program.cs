@@ -16,7 +16,7 @@ namespace Mario
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new begin());
+            Application.Run(new Form1());
         }
     }
 }

@@ -18,6 +18,7 @@ namespace Mario
         }
         bool goLeft, goRight, jump;
         int force = 8;
+        int jumpspeed = 10;
         int coin = 0;
         int playerSpeed = 10;
         int backgroundSpeed = 8;
@@ -29,6 +30,7 @@ namespace Mario
         private void Map1TimerEvent(object sender, EventArgs e)
         {
             CoinCount.Text = "Coin: " + coin;
+            player.Top += jumpspeed;
             if (goLeft == true && player.Left >50)
             {
                 player.Left -= playerSpeed;
@@ -37,13 +39,25 @@ namespace Mario
             {
                 player.Left += playerSpeed;
             }    
+
             if (goLeft == true && background.Left<0)
             {
                 background.Left -= backgroundSpeed;
-            }    
+                MovegameElement("forward");
+            }
             if (goRight == true && background.Left>693)
             {
                 background.Left -= backgroundSpeed;
+                MovegameElement("back");
+            }
+            if (jump == true)
+            {
+                jumpspeed = -12;
+                force -= 1;
+            }    
+            if (jump == true && force<0)
+            {
+                jump = false;
             }    
         }
 
@@ -91,7 +105,17 @@ namespace Mario
         {
             foreach (Control x in this.Controls)
             {
-
+                if (x is PictureBox && (string)x.Tag == "platform"|| x is PictureBox && (string)x.Tag == "coin"|| x is PictureBox && (string)x.Tag == "door"|| x is PictureBox && (string)x.Tag == "badge")
+                {
+                    if (direction == "back")
+                    {
+                        x.Left -= backgroundSpeed;
+                    }    
+                    if (direction == "forward")
+                    {
+                        x.Left += backgroundSpeed;
+                    }    
+                }    
             } 
                 
         }
