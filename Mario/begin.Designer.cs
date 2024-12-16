@@ -167,7 +167,7 @@
             this.Controls.Add(this.nameBox);
             this.HelpButton = true;
             this.Name = "begin";
-            this.Text = "begin";
+            this.Text = "f";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.begin_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.jumping)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
