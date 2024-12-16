@@ -116,6 +116,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Mario.Properties.Resources.nen;
             this.ClientSize = new System.Drawing.Size(900, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.radioButton4);
